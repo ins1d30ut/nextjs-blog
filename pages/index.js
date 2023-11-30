@@ -14,9 +14,8 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>
           Greetings from <strong>ins1d30ut</strong>. I’m here to tell you a
-          story..some of it is my experience with life. Some of it is about
-          things I have seen thru other people's eyes. Please enjoi{' '}
-          <a href='https://twitter.com/mycelialfunguy'>Twitter</a>.
+          story...some of it is my experience with life. Some of it is about
+          things I have seen thru other people's eyes. Please enjoi!! .
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
