@@ -13,10 +13,16 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Greetings from <strong>ME</strong>. I’m here to tell you a
-          story...some of it is my experience with life. Some of it is about
-          things I have seen thru other people's eyes. Some of it is a lie.
+          Hello! This is just a side project I am doing for fun...some of it is
+          my experience with life. Some of it is about things I have seen thru
+          other people's eyes. Some of it is a lie.
         </p>
+        <h1>
+          I should say that some posts may be considered controversial to some
+          people but I have absolutely no malicious intent. I truly believe that
+          <strong> we</strong> need to start getting on the same page and
+          starting to look at things in a much simpler way.
+        </h1>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
