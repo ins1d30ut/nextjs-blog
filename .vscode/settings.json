@@ -1,0 +1,5 @@
+{
+    "prettier.useTabs": true,
+    "prettier.resolveGlobalModules": true,
+    "prettier.jsxSingleQuote": false
+}

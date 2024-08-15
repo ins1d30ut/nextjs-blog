@@ -4,18 +4,14 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'ins1d30ut';
-export const siteTitle = 'My Journey';
+const name = 'CockSuckers';
+export const siteTitle = 'COSUK';
 
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
         <link rel='icon' href='/favicon.ico' />
-        <meta
-          name='description'
-          content='Learn about life thru the eyes of a degenerate'
-        />
         <meta
           property='og:image'
           content={`https://og-image.vercel.app/${encodeURI(
@@ -24,27 +20,28 @@ export default function Layout({ children, home }) {
         />
         <meta name='og:title' content={siteTitle} />
         <meta name='twitter:card' content='summary_large_image' />
+        
       </Head>
       <header className={styles.header}>
+        <h1 className={utilStyles.heading2Xl}>{siteTitle}</h1>
         {home ? (
           <>
             <Image
               priority
-              src='/images/profile.jpg'
+              src='/images/1.png'
               className={utilStyles.borderCircle}
               height={144}
               width={144}
               alt={name}
             />
-
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h2 className={utilStyles.headingLg}>{name}</h2>
           </>
         ) : (
           <>
-            <Link href='/'>
+            <Link href="/">
               <Image
                 priority
-                src='/images/profile.jpg'
+                src="/images/1.png"
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
@@ -52,7 +49,7 @@ export default function Layout({ children, home }) {
               />
             </Link>
             <h2 className={utilStyles.headingLg}>
-              <Link href='/' className={utilStyles.colorInherit}>
+              <Link href="/" className={utilStyles.colorInherit}>
                 {name}
               </Link>
             </h2>
